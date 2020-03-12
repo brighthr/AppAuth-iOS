@@ -16,7 +16,7 @@ FOUNDATION_EXPORT const unsigned char AppAuthUserAgentsVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <AppAuthUserAgents/PublicHeader.h>
 
-#import <AppAuthCore/AppAuthCore.h>
+#import <AppAuth/AppAuthCore.h>
 
 #if TARGET_OS_IOS
 #import "OIDAuthState+IOS.h"

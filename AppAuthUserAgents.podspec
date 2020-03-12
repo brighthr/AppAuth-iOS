@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "AppAuthUserAgents"
   s.version      = "1.1.0"
-  s.summary      = "User agents for use with AppAuthCore"
+  s.summary      = "User agents for use with the AppAuth/Core pod"
   s.homepage     = "https://openid.github.io/AppAuth-iOS"
   s.license      = "Apache License, Version 2.0"
   s.authors      = {
@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.ios.frameworks        = "SafariServices"
   s.ios.weak_frameworks   = "AuthenticationServices"
 
-  s.dependency 'AppAuthCore', '~> 1.0'
+  s.dependency 'AppAuth/Core', '~> 1.0'
 end

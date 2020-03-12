@@ -1,3 +1,3 @@
 .PHONY: test
 test:
-	pod lib lint --include-podspecs=AppAuthCore.podspec
+	pod lib lint
