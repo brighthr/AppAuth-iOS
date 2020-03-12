@@ -3,7 +3,7 @@
 //  AppAuthUserAgents
 //
 //  Created by Alex Jackson on 12/03/2020.
-//  Copyright © 2020 OpenID Foundation. All rights reserved.
+//  Copyright © 2020 BrightHR. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
