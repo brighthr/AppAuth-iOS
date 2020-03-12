@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "AppAuthUserAgents"
   s.version      = "1.1.0"
-  s.summary      = "AppAuth for iOS and macOS is a client SDK for communicating with OAuth 2.0 and OpenID Connect providers."
+  s.summary      = "User agents for use with AppAuthCore"
   s.homepage     = "https://openid.github.io/AppAuth-iOS"
   s.license      = "Apache License, Version 2.0"
   s.authors      = {
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # iOS
-  s.source_files = 'Source/AppAuthUserAgents.h'
+  s.source_files = 'Source/AppAuthUserAgents/AppAuthUserAgents.h'
 
   s.ios.source_files      = "Source/iOS/**/*.{h,m}"
   s.ios.deployment_target = "7.0"

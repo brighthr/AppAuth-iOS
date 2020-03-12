@@ -1,5 +1,4 @@
 Pod::Spec.new do |s|
-
   s.name         = "AppAuthCore"
   s.version      = "1.1.0"
   s.summary      = "AppAuthCore for iOS and macOS is a client SDK for communicating with OAuth 2.0 and OpenID Connect providers."
@@ -14,5 +13,5 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.source_files = "Source/*.{h,m}"
-  s.exclude_files = ["Source/AppAuth.h", "Source/AppAuthUserAgents.h"]
+  s.exclude_files = "Source/AppAuth.h"
 end
