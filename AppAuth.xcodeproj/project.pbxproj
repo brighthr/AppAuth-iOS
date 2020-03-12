@@ -730,6 +730,7 @@
 		F6F60FB11D2BFEFE00325CB3 /* OIDAuthorizationService+IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "OIDAuthorizationService+IOS.m"; path = "iOS/OIDAuthorizationService+IOS.m"; sourceTree = "<group>"; };
 		F6F60FB31D2BFEFE00325CB3 /* OIDAuthorizationService+IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "OIDAuthorizationService+IOS.h"; path = "iOS/OIDAuthorizationService+IOS.h"; sourceTree = "<group>"; };
 		F6F60FB51D2BFEFE00325CB3 /* OIDAuthState+IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "OIDAuthState+IOS.h"; path = "iOS/OIDAuthState+IOS.h"; sourceTree = "<group>"; };
+		FFCE00E8241A47010047349F /* AppAuthUserAgents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppAuthUserAgents.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -918,6 +919,7 @@
 				F6F60FAF1D2BFEF000325CB3 /* iOS */,
 				341741AF1C5D8243000EF209 /* AppAuth.h */,
 				3489709E21791B0C00ABEED4 /* AppAuthCore.h */,
+				FFCE00E8241A47010047349F /* AppAuthUserAgents.h */,
 				341741B41C5D8243000EF209 /* OIDAuthorizationRequest.h */,
 				341741B51C5D8243000EF209 /* OIDAuthorizationRequest.m */,
 				341741B61C5D8243000EF209 /* OIDAuthorizationResponse.h */,
