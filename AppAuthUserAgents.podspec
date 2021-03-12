@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AppAuthUserAgents"
-  s.version      = "1.1.0"
+  s.version      = "1.4.0"
   s.summary      = "User agents for use with the AppAuth/Core pod"
   s.homepage     = "https://openid.github.io/AppAuth-iOS"
   s.license      = "Apache License, Version 2.0"
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # iOS
   s.source_files = 'Source/AppAuthUserAgents/AppAuthUserAgents.h'
 
-  s.ios.source_files      = "Source/iOS/**/*.{h,m}"
+  s.ios.source_files      = "Source/AppAuth/iOS/*.{h,m}"
   s.ios.deployment_target = "7.0"
   s.ios.frameworks        = "SafariServices"
   s.ios.weak_frameworks   = "AuthenticationServices"
